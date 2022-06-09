@@ -1,0 +1,108 @@
+header{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 80px;
+    display: inline-block;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+body{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: #2f2f2f;
+    background-color: #f9f7f1;
+}
+.head{
+    text-align: center;
+    position: relative;
+}
+.menu{
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: px 0 5px 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+nav{
+    text-align: center;
+    font-size: 25px;
+}
+nav li{
+    display: inline-block;
+    margin: 0px 80px;
+}
+nav a{
+    color: gray;
+}
+a:link{
+    color: gray;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
+}
+.img{
+    position: relative;
+    background-image: url("../img/main.jpg");                                                               
+    height: 100vh;
+    background-size: cover;
+}
+.img-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);                                                                 
+    z-index:1;
+}
+.img .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:20px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+footer{
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+    clear: both;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px){
+    .c_m_1{width: 8.33%}
+    .c_m_2{width: 16.66%}
+    .c_m_3{width: 25%}
+    .c_m_4{width: 33.33%}
+    .c_m_5{width: 41.66%}
+    .c_m_6{width: 50%}
+    .c_m_7{width: 58.33%}
+    .c_m_8{width: 66.66%}
+    .c_m_9{width: 75%}
+    .c_m_10{width: 83.33%}
+    .c_m_11{width: 91.66%}
+    .c_m_12{width: 100%}
+    }
+@media only screen and (max-width: 768px){
+    .c_1{width: 8.33%}
+    .c_2{width: 16.66%}
+    .c_3{width: 25%}
+    .c_4{width: 33.33%}
+    .c_5{width: 41.66%}
+    .c_6{width: 50%}
+    .c_7{width: 58.33%}
+    .c_8{width: 66.66%}
+    .c_9{width: 75%}
+    .c_10{width: 83.33%}
+    .c_11{width: 91.66%}
+    .c_12{width: 100%}
+    }
